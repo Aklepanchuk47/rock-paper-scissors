@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgba(21, 33, 208, 0.4);
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+button {
+    font-family: monospace;
+    font-size: 20px; 
+    border-color: rgb(9, 15, 102); 
+    border-radius: 20px; 
+}
+
+.header-text {
+    font-family: monospace; 
+    font-size: 25px; 
+    margin-bottom: 40px; 
+}
+
+.selection {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px; 
+    margin-bottom: 30px; 
+}
+
+.game-results {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#rock {
+    border-style: dotted;  
+}
+
+#paper {
+    border-style: double;
+}
+
+#scissors {
+    border-style: dashed;
+}
