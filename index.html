@@ -2,16 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="javascript" href="script.js">
         <link rel="stylesheet" href="style.css">
         <title>Rock Paper Scissors Improved</title>
     </head>
     <body>
-        <header>
-            <button class="selection" type="button">Rock</button>
-            <button class="selection" type="button">Paper</button>
-            <button class="selection" type="button">Scissors</button>
+        <header class = header-text>
+            ~ Choose carefully below ~
         </header>
-        <script src="script.js"></script>
+
+        <div class="selection">
+            <button id = "rock">Rock</button>
+            <button id = "paper">Paper</button>
+            <button id= "scissors">Scissors</button>
+        </div>
+
+        <div class = "game-results">
+            <p class = "game-message"></p>
+            <p class = "player-score"></p>
+            <p class = "computer-score"></p>
+        </div>
+
+        <div>
+            <button id = "reset">Play again?</button>
+        </div>
+
+        <script src="script.js" ></script>
     </body>
 </html>
